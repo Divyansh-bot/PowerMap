@@ -11,7 +11,7 @@ export default function App() {
   const [auxState, setAuxState] = useState({
     ac: true, headlights: false, fog: false, speakers: false, mobile: false
   });
-  const [batteryState, setBatteryState] = useState({ capacityKWh: 60, socPercent: 85 });
+  const [batteryState, setBatteryState] = useState({ capacityKWh: 60, socPercent: 100 });
 
   const routeSim = useRouteSimulator({
     route: selectedRoute,
