@@ -120,8 +120,7 @@ POWERMAP/
 - [Node.js](https://nodejs.org) (v18 or newer)
 - npm (comes with Node)
 - Git (for cloning)
-- Optional: [GitHub CLI](https://cli.github.com/) (`gh`) for one-command repo creation
-
+  
 ---
 
 ### 2️⃣ Installation
@@ -227,13 +226,6 @@ and allow **location access** in the browser.
 ```bash
 cd client
 npm run build
-```
-
-Then deploy the generated `/dist` folder to any static host such as:
-- [Vercel](https://vercel.com)
-- [Netlify](https://netlify.com)
-- GitHub Pages
-- AWS S3 or CloudFront
 
 ---
 
@@ -260,16 +252,4 @@ Then deploy the generated `/dist` folder to any static host such as:
 
 ---
 
-## 🧰 Troubleshooting
-
-**White screen / map not loading?**  
-→ Check console (`Ctrl+Shift+I`) for missing import paths or version mismatches.
-
-**OSRM errors / “Too Many Requests”?**  
-→ The public OSRM/Nominatim endpoints have rate limits; switch to OpenRouteService or Mapbox APIs for production.
-
-**GPS not updating?**  
-→ Ensure browser permission is granted and HTTPS is used (or `localhost`).
-
----
 #**Live Project Link** : https://power-map-seven.vercel.app/
