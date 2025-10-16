@@ -226,7 +226,7 @@ and allow **location access** in the browser.
 ```bash
 cd client
 npm run build
-
+```
 ---
 
 ## 🧪 Example Demo Flow
