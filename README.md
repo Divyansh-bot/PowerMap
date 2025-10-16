@@ -272,8 +272,4 @@ Then deploy the generated `/dist` folder to any static host such as:
 → Ensure browser permission is granted and HTTPS is used (or `localhost`).
 
 ---
-#**Live Project Link** : 
-
-
-Developed for **Volkswagen iMobilothon** by 🚗 *Team PowerMap*  
-*(An OpenAI-assisted project prototype.)*
+#**Live Project Link** : https://power-map-seven.vercel.app/
